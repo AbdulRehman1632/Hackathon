@@ -248,12 +248,13 @@ const LoanForm = () => {
 
       if (response) {
         dispatch(Add(response?.data));
-        navigate('/UserData');
+        // navigate('/UserData');
         
         // Show a success toast after form submission
-        toast.success("Your request has been submitted successfully!", {
-          position: toast.POSITION.TOP_RIGHT,
-        });
+        // toast.success("Your request has been submitted successfully!", {
+        //   position: toast.POSITION.TOP_RIGHT,
+        // });
+        alert("Your request has been submitted successfully!")
       }
     } catch (error) {
       console.log(error);

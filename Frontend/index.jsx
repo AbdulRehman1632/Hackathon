@@ -2,7 +2,8 @@ import Dashboard from "./src/Pages/Dashboard/Dashboard";
 import Home from "./src/Pages/Home/Home";
 import LoanForm from "./src/Pages/LoanForm/LoanForm";
 import UserTable from "./src/Pages/UserTable/UserTable";
-import UserDashboard from "./src/Pages/UserDashboard/UserDashboard"
+import UserDashboard from "./src/Pages//UserDashboard/UserDashboard"
+// import Login from "./Login/src/Pages/Login";
 
 
 export const routes =[
@@ -35,5 +36,34 @@ export const routes =[
 //     element:<BlogDetail/>,
 //     path:"/BlogDetails/:id",
 // },
+
+    // {
+    //     path: '/',
+    //     component: <Login/>,
+    // },
+    // {
+    //     path: '/login',
+    //     component: <Login/>,
+    // },
+    // {
+    //     path: '/register',
+    //     component: <Register/>,
+    // },
+    // {
+    //     path: '/forgot-password',
+    //     component: <ForgotPassword/>,
+    // },
+    // {
+    //     path: '/reset-password/:token',
+    //     component: <ResetPassword/>,
+    // },
+    // {
+    //     path: '/dashboard',
+    //     component: <Dashboard/>,
+    // },
+    // {
+    //     path: '/dashboardAdmin',
+    //     component: <DashboardAdmin/>,
+    // }
 
 ]
